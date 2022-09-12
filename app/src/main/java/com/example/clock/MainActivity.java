@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
                 textClock.setText(clockFormat.format(new Date()));
                 textDate.setText(dateFormat.format(new Date()));
 
-
                 //interval
                 handler.postDelayed(this, 1000);
             }
